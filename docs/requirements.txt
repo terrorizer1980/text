@@ -1,3 +1,4 @@
 sphinx
 sphinxcontrib-googleanalytics
 -e git+git://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
